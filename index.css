@@ -1,0 +1,24 @@
+:root {
+  --dkGreen: #377b30;
+  --green: #4caf50;
+}
+body {
+  margin: 0 auto;
+  width:500px;
+  border: 5px solid var(--dkGreen);
+}
+form {
+text-align: center;
+}
+input, .clear {
+    margin: 20px auto;
+    outline: none;
+    padding: 14px;
+    width: 150px;
+    box-shadow: inset -6px -6px 9px #fff, inset 6px 6px 9px #aaa;
+    border-radius: 10px;
+      }
+
+h1 {
+  text-align: center;
+}
