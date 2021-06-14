@@ -9,26 +9,20 @@
 </head>
 
 <body>
-  <div>
-    <h1><strong>Currency Converter</strong></h1>
-  </div>
-  <div>
-    <p>
-    <h1>You would like to exchange <span id="dollarAmt"><em>dollarAmt</em></span> dollars to Euros.</h1>
-    </p>
-    <p>
-    <h1>Your converted amount equals: <span id="convAmt"><em>convertedAmt</em></span> in Euros.</h1>
-    </p>
-  </div>
+  <table>
+   <tr><td><h1><strong>Currency Converter</strong></h1></tr></td>
+    <tr><td><h2>You would like to exchange <span id="dollarAmt"><em>dollarAmt</em></span> dollars to Euros.</h2>    
+    <h2>Your converted amount equals: <span id="convAmt"><em>convertedAmt</em></span> in Euros.</h2></tr></td>
+     
 
-  <form>
+ <tr><td>
     <input type="number" id="myInput" placeholder="Enter amount to be converted.">
+    <button class="clear" id="reset">Reset</button></tr></td>
+
  
+  <tr><td><h2><strong>Thank You for using CVert!</strong></h2></td></tr>
 
- <button class="clear" id="reset">Reset</button>
-  </form>
-
-  <h1><strong>Thank You for using CVert!</strong></h1>
+  </table>
 
   <script src="index.js"></script>
 </body>

@@ -1,19 +1,13 @@
 const cvTitle = document.querySelector("strong").style.color = "red";
-// const titles = document.querySelector("h1").color = "red";
+const paragraph = document.querySelector("h1").style.fontSize = "35px";
+
+const feedback = document.querySelector("h2").style.fontSize = "18px";
+          document.querySelectorAll("h2")[1].style.fontSize = "18px";
+
 const span = document.querySelector("span").style.color = "green";
     document.querySelectorAll("span")[1].style.color = "red";
-    
-const paragraph = document.querySelector("h1").style.fontSize = "35px";
-    document.querySelector("h1").style.textAlign = "center";
-    document.querySelectorAll("h1")[1].style.fontSize = "1rem";
-    document.querySelectorAll("h1")[2].style.fontSize = "1rem";
 
-    document.querySelectorAll("h1")[3].style.fontSize = "1em";
-    document.querySelectorAll("h1")[3].style.textAlign = "center";
-    document.querySelectorAll("h1")[3].style.color = "red";
-    document.querySelectorAll("h1")[3].style.paddingBottom = "10px";
-
-
+const inserted = document.getElementById("myInput");
 const resetBtn = document.querySelector("#reset");
 
 function reset() {
@@ -23,7 +17,6 @@ function reset() {
 resetBtn.addEventListener("click", reset);
 
 
-const inserted = document.getElementById("myInput");
 inserted.addEventListener("input", function (event) {
   let converted = event.target.value;
 
